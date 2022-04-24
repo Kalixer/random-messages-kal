@@ -1,6 +1,6 @@
 {
   "name": "random-messages-kal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random phrases displayed on the console with node and npm",
   "main": " src/index.js",
   "scripts": {
