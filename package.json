@@ -1,7 +1,7 @@
 {
   "name": "random-messages-kal",
   "version": "1.0.0",
-  "description": "random messages",
+  "description": "Random phrases displayed on the console with node and npm",
   "main": " src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,15 @@
   "author": "Alejandro Caceres <al.caceres.ag72@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./src/bin/global.js"
+    "random-msg": "src/bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalixer/random-messages-kal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kalixer/random-messages-kal/issues"
+  },
+  "homepage": "https://github.com/Kalixer/random-messages-kal#readme"
 }
