@@ -1,5 +1,5 @@
 {
-  "name": "random-messages",
+  "name": "random-messages-kal",
   "version": "1.0.0",
   "description": "random messages",
   "main": " src/index.js",
@@ -12,5 +12,9 @@
     "npm"
   ],
   "author": "Alejandro Caceres <al.caceres.ag72@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./src/bin/global.js"
+  },
+  "preferGlobal": true
 }
