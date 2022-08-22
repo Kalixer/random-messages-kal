@@ -8,6 +8,8 @@ const messages = [
     "Be empathic, what people need is love",
     "Be yourself, you're awesome",
     "You are your number one fan, no one will fight for you as yourself",
+    "Balance",
+    "If you don't enjoy the process, you probably won't be satisfied with the results",
 ];
 
 const randomMsg = () => {
